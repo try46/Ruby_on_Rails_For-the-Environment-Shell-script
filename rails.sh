@@ -8,9 +8,9 @@ echo 'source "http://rubygems.org"' >> /Users/$username/Gemfile
 
 echo 'gem "rails"' >> /Users/$username/Gemfile
 
-bundle install --path vendor/bundle
+bundle install --path vendor/bundle /Users/$username/
 
-bundle exec rails new $str --skip-bundle
+bundle exec rails new $str --skip-bundle /Users/$username
 
 rm -f /Userss/$username/Gemfile
 
